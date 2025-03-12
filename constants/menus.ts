@@ -18,6 +18,57 @@ export const navMenu: NavMenu[] = [
     ],
   },
   {
+    heading: 'Revenue Inbound',
+    items: [
+      {
+        title: 'Vacancies',
+        icon: 'i-lucide-briefcase-conveyor-belt',
+        link: '/vacancies',
+      },
+      {
+        title: 'Contracts',
+        icon: 'i-lucide-scale',
+        link: '/contracts',
+        new: true,
+      },
+      {
+        title: 'Bids',
+        icon: 'i-lucide-receipt',
+        link: '/bids',
+      },
+      {
+        title: 'Clients',
+        icon: 'i-lucide-user-check',
+        link: '/clients',
+      },
+      {
+        title: 'Leads',
+        icon: 'i-lucide-user-plus',
+        link: '/leads',
+      },
+    ],
+  },
+  {
+    heading: 'Revenue Outbound',
+    items: [
+      {
+        title: 'Investment',
+        icon: 'i-lucide-circle-dollar-sign',
+        link: '/investments',
+      },
+    ],
+  },
+  {
+    heading: 'Research',
+    items: [
+      {
+        title: 'Courses',
+        icon: 'i-lucide-codepen',
+        link: '/courses',
+      },
+    ],
+  },
+  {
     heading: 'Pages',
     items: [
       {
@@ -74,38 +125,6 @@ export const navMenu: NavMenu[] = [
             title: '503 - Service Unavailable',
             icon: 'i-lucide-circle',
             link: '/503',
-          },
-        ],
-      },
-      {
-        title: 'Settings',
-        icon: 'i-lucide-settings',
-        new: true,
-        children: [
-          {
-            title: 'Profile',
-            icon: 'i-lucide-circle',
-            link: '/settings/profile',
-          },
-          {
-            title: 'Account',
-            icon: 'i-lucide-circle',
-            link: '/settings/account',
-          },
-          {
-            title: 'Appearance',
-            icon: 'i-lucide-circle',
-            link: '/settings/appearance',
-          },
-          {
-            title: 'Notifications',
-            icon: 'i-lucide-circle',
-            link: '/settings/notifications',
-          },
-          {
-            title: 'Display',
-            icon: 'i-lucide-circle',
-            link: '/settings/display',
           },
         ],
       },
